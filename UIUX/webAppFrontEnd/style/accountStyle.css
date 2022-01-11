@@ -1,0 +1,39 @@
+body
+{
+    background-image: url('../src/cloud1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container-fluid
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#userProfile
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 300px;
+}
+.card
+{
+    background: transparent;
+    color: white;
+}
+.card h1
+{
+    padding-bottom: 40px;
+}
+.card h6
+{
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+footer
+{
+    color: white;
+    background-color: black;
+}

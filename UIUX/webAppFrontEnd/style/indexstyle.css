@@ -1,0 +1,61 @@
+body
+{
+    background-image: url("../src/cloud1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container-fluid
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    
+    /* border-radius: 30px; */
+}
+
+
+#userIcon
+{
+    width: 50px;
+    height: 50px;
+}
+
+.dropdown
+{
+    padding-right: 35px;
+}
+
+#welcome h1
+{
+    padding: 1%;
+    color: rgb(224, 142, 19);
+    font-size: 110px;
+    font-weight: 700;
+    /* opacity: 50%; */
+    opacity: .7;
+    /* text-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37); */
+    text-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    /* align-items: flex-start; */
+}
+
+form
+{
+    margin-top: 30px;
+    opacity: 0.3;
+    padding:20%;
+    font-size: 30px;
+    font-weight: 500;
+    height:40%;
+    width:70%;
+    align-items:center;
+    background-color:white;
+}
+form .row 
+{
+    padding-left: 30px;
+}
+
+footer
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/indexstyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>nav</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">PQSI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <button type="button" class="btn btn-dark">
+                                Home
+                            </button>
+                        </a>
+                    </li>
+					<li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#AboutUs">
+                                About Us 
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="../model/src/Picture1.png" alt="..." id="userIcon">
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenu2">
+                            <li><a href="AccountDetails.html"><button class="dropdown-item" type="button">Account</button></a></li>
+                            <li><a href="login.html"><button class="dropdown-item" type="button">Log Out</button></a></li>
+                            <!-- <li><button class="dropdown-item" type="button">Log Out</button></li> -->
+                            <!-- <li><button class="dropdown-item" type="button">Another action</button></li> -->
+                        </ul>
+                    </div>
+    <!-- <img src="../model/src/Picture1.png" alt="..." id="userIcon"> -->
+                </div>
+              </div>
+			  <div class="modal fade" id="AboutUs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">About Us</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            We offer Digital Transformation for manufacturing value streams to deliver sustainable quality and yield improvements. Our offering includes domain consulting, digital consulting, digital transformation, training and support. We deliver transformational solutions that include software. Our platforms monitor more than 155,000 critical to quality parameters at this moment.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <div class="row">
+            <div class="col" id="welcome">
+                <h1>
+                    <marquee><i><h1>Welcome To PQSI</h1></i></marquee>
+                </h1>
+            </div>
+            <div class="col" id="inputForm">
+                <form>
+                    <div class="mb-3">
+                      <label class="form-label">Enter Mould ID</label>
+                      <input type="text" class="form-control" id="inputID" aria-describedby="ID">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="output.html"><button type="button" class="btn btn-dark">Submit</button></a>                     
+                        </div>
+                        <div class="col-md-6">
+                            <a href="Inventory.html"><button type="button" class="btn btn-primary">Inventory</button></a>
+                        </div>
+                    </div>
+                  </form>
+            </div>
+
+        </div>
+        <footer class="panel-footer">
+            <div class="container">
+                      <br>
+                      <br>
+              <div class="row">
+                <section id="hours" class="col-sm-4">
+                  <span>Hours:</span><br>
+                  Mon-Fri:10.00 am- 6.00 pm<br>
+                  Sat : 10.30 am - 2:30pm<br>
+                  Sunday Closed
+                  <!-- <hr class="visible-xs"> -->
+                </section>
+                <section id="address" class="col-sm-4">
+                  <span>Address:</span><br>
+                  FORGE.FACTORY,G Floor,<br>KCT Tech Park, <br>#3 Athipalayam Road, Chinnavedampatti, <br>Coimbatore, <br>Tamil Nadu-641049
+              
+                  <!-- <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p> -->
+                  <!-- <hr class="visible-xs"> -->
+                </section>
+                <section id="testimonials" class="col-sm-4">
+                  <p>Contact Us</p>
+                  <p>+91 44 6680 5555</p>
+                  <p>cs@pqsi.in</p>
+                </section>
+              </div>
+              <!-- <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div> -->
+              <br>
+              <br>
+            </div>
+          </footer>
+    </div>
+
+</body>
+
+</html>

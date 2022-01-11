@@ -1,0 +1,54 @@
+body
+{
+    background-image: url('../src/cloud1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container-fluid
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#srcBtn
+{
+    margin-right: 7px;
+}
+
+#userIcon
+{
+    width: 50px;
+    height: 50px;
+}
+
+.LibHead h1
+{
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+}
+
+#content
+{
+    padding: 30px;
+    width: 97%;
+    height: 90vh;
+    overflow: auto;
+    margin-top: 15px;
+    
+}
+#content .col-md-3
+{
+    margin-top: 10px;
+}
+
+.card img
+{
+    height: 190px;
+}
+
+footer
+{
+    color: white;
+    background-color: black;
+}
