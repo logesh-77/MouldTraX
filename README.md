@@ -12,4 +12,10 @@ Monitor Your Asset   ---> LIVE &lt;---
             Rajavishnu
             Vivin Rosan
             Yashaswini
-      
+    ==> Requirments
+            ESP 8266
+            EM 18 - RFID reader
+            RFID tags
+            GPS Module
+            Firebase Account
+            
